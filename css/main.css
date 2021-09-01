@@ -1,0 +1,27 @@
+body {
+    background: url(../images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.input-section {
+    margin-top: 70px;
+}
+
+.copyright-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.copyright-text span {
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease-in-out .4s;
+    color: tomato;
+}
+.copyright-text span:hover {
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body id="body">
+    <section class="container input-section">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="input-value" type="text" class="form-control" placeholder="Enter your city ...">
+                <div class="input-group-append">
+                    <button onclick="weatherResult()" type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="city-name">Dhaka</h1>
+            <h3><span id="temp">38.06</span>&deg;C</h3>
+            <h1 id="weather-type" class="lead">Clouds</h1>
+        </div>
+    </section>
+    <section>
+        <p class="copyright-text">© 2018-2021 Plagiarism Today All Rights Reserved <a href="https://www.facebook.com/arjunroy4">Arjun Roy</a></p>
+    </section>
+
+    <script src="js/weather.js"></script>
+</body>
+</html>
