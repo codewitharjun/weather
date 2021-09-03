@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>Document</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>WeatherWithArjun</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body id="body">
     <section class="container input-section">
@@ -18,15 +18,22 @@
                 </div>
             </div>
         </form>
+        <p id="err-msg" class="text-center display-6"></p>
+        <p id="empty-msg" class="text-center text-danger display-6"></p>
         <div class="weather-status text-white text-center">
-            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
-            <h1 id="city-name">Dhaka</h1>
+            <img id="change-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="city-name">Jessore-BD</h1>
             <h3><span id="temp">38.06</span>&deg;C</h3>
-            <h1 id="weather-type" class="lead">Clouds</h1>
+            <h1 id="weather-type" class="lead">Rain</h1>
+            <h6>
+                <span>Feels: <span id="feels"> 0</span>&deg;C</span>
+                <span class="padding-gap">Clouds: <span id="clouds"> 0</span>%</span>
+                <span>Wind: <span id="wind-speed"> 0</span>km/h</span>
+            </h6>
         </div>
     </section>
     <section>
-        <p class="copyright-text">© 2018-2021 Plagiarism Today All Rights Reserved <a href="https://www.facebook.com/arjunroy4">Arjun Roy</a></p>
+        <p class="copyright-text">Copyright © 2018-2021 weather-with-arjun, inc. All Rights Reserved. <a href="https://www.facebook.com/arjunroy4">Arjun Roy</a></p>
     </section>
 
     <script src="js/weather.js"></script>

@@ -9,6 +9,20 @@ body {
     margin-top: 70px;
 }
 
+.display-5 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.display-6 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.padding-gap {
+    padding: 0 10px;
+}
+
 .copyright-text {
     margin-top: 30px;
     text-align: center;
@@ -17,11 +31,14 @@ body {
     color: white;
 }
 
-.copyright-text span {
-    text-decoration: none;
-    font-size: 20px;
+.copyright-text a {
+    font-size: 18px;
     transition: all ease-in-out .4s;
-    color: tomato;
+    color: rgb(190, 143, 194);
+    /* color: rgb(30, 114, 129); */
+    /* color: rgb(189, 15, 145); */
 }
-.copyright-text span:hover {
+.copyright-text a:hover {
+    text-decoration: none;
+    color: rgb(131, 15, 112);
 }
